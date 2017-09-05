@@ -1,0 +1,30 @@
+<?php
+return [
+    // for mysql
+//     'db' => [
+//         'driver' => 'pdo_mysql',
+//         'port' => '3306',
+//         'dbname' => '',
+//         'username' => '',
+//         'password' => '',
+//         'driver_options' => [
+//             PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''
+//         ],
+//     ],
+
+    // for postgresql
+//     'db' => [
+//         'driver' => 'pdo_pgsql',
+//         'port' => '5432',
+//         'host' => 'localhost',
+//         'dbname' => '',
+//         'username' => '',
+//         'password' => '',
+//     ],
+
+    // for Development
+    'view_manager' => [
+        'display_not_found_reason' => true,
+        'display_exceptions'       => true,
+    ],
+];
